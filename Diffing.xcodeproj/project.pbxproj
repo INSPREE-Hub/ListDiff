@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DA20C4B1EA81434009380B4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA20C4A1EA81434009380B4 /* Stack.swift */; };
+		0DA20C4D1EA8144E009380B4 /* String+Diffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA20C4C1EA8144E009380B4 /* String+Diffable.swift */; };
+		0DA20C4F1EA81A12009380B4 /* Numbers+Diffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA20C4E1EA81A12009380B4 /* Numbers+Diffable.swift */; };
 		0DB8C3BF1EA7D561000B77E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8C3BE1EA7D561000B77E0 /* AppDelegate.swift */; };
 		0DB8C3C11EA7D561000B77E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8C3C01EA7D561000B77E0 /* ViewController.swift */; };
 		0DB8C3C41EA7D561000B77E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB8C3C21EA7D561000B77E0 /* Main.storyboard */; };
 		0DB8C3C61EA7D561000B77E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB8C3C51EA7D561000B77E0 /* Assets.xcassets */; };
 		0DB8C3C91EA7D561000B77E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DB8C3C71EA7D561000B77E0 /* LaunchScreen.storyboard */; };
 		0DB8C3D41EA7D561000B77E0 /* DiffingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8C3D31EA7D561000B77E0 /* DiffingTests.swift */; };
+		0DB8C3DF1EA7D56D000B77E0 /* ListDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB8C3DE1EA7D56D000B77E0 /* ListDiff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DA20C4A1EA81434009380B4 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		0DA20C4C1EA8144E009380B4 /* String+Diffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Diffable.swift"; sourceTree = "<group>"; };
+		0DA20C4E1EA81A12009380B4 /* Numbers+Diffable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numbers+Diffable.swift"; sourceTree = "<group>"; };
 		0DB8C3BB1EA7D561000B77E0 /* Diffing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diffing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB8C3BE1EA7D561000B77E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DB8C3C01EA7D561000B77E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		0DB8C3CF1EA7D561000B77E0 /* DiffingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB8C3D31EA7D561000B77E0 /* DiffingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffingTests.swift; sourceTree = "<group>"; };
 		0DB8C3D51EA7D561000B77E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB8C3DE1EA7D56D000B77E0 /* ListDiff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDiff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				0DB8C3C51EA7D561000B77E0 /* Assets.xcassets */,
 				0DB8C3C71EA7D561000B77E0 /* LaunchScreen.storyboard */,
 				0DB8C3CA1EA7D561000B77E0 /* Info.plist */,
+				0DB8C3DE1EA7D56D000B77E0 /* ListDiff.swift */,
+				0DA20C4A1EA81434009380B4 /* Stack.swift */,
+				0DA20C4C1EA8144E009380B4 /* String+Diffable.swift */,
+				0DA20C4E1EA81A12009380B4 /* Numbers+Diffable.swift */,
 			);
 			path = Diffing;
 			sourceTree = "<group>";
@@ -201,8 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA20C4B1EA81434009380B4 /* Stack.swift in Sources */,
 				0DB8C3C11EA7D561000B77E0 /* ViewController.swift in Sources */,
 				0DB8C3BF1EA7D561000B77E0 /* AppDelegate.swift in Sources */,
+				0DA20C4F1EA81A12009380B4 /* Numbers+Diffable.swift in Sources */,
+				0DB8C3DF1EA7D56D000B77E0 /* ListDiff.swift in Sources */,
+				0DA20C4D1EA8144E009380B4 /* String+Diffable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +428,7 @@
 				0DB8C3DA1EA7D561000B77E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DB8C3DB1EA7D561000B77E0 /* Build configuration list for PBXNativeTarget "DiffingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				0DB8C3DD1EA7D561000B77E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
