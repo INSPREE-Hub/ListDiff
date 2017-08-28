@@ -159,11 +159,13 @@
 					0DB8C3BA1EA7D561000B77E0 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 3L8LER3A32;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0DB8C3CE1EA7D561000B77E0 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 3L8LER3A32;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0DB8C3BA1EA7D561000B77E0;
 					};

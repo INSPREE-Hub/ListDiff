@@ -23,7 +23,7 @@ class SwiftClass: ListDiffable {
         self.value = value
     }
     
-    func isEqualToDiffable(object: ListDiffable) -> Bool {
+    func isEqualToDiffable(_ object: ListDiffable) -> Bool {
         guard let object = object as? SwiftClass else {
             return false
         }
